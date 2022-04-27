@@ -1,0 +1,25 @@
+{
+  "name": "api-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Ricardo Bustamante",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.0",
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-group-router": "^2.1.0",
+    "ipapi.co": "^0.3.0",
+    "supertest": "^6.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "should": "^13.2.3"
+  }
+}
